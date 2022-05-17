@@ -4,6 +4,7 @@ from pokemon import Pokemon
 class Trainer:
     potion_heal_value = 75
     currently_active = 0
+    whatever = 0
 
     def __init__(self, name, p1=None, p2=None, p3=None, p4=None, p5=None, p6=None):
         self.party = [p1, p2, p3, p4, p5, p6]
